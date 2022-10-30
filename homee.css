@@ -1,0 +1,754 @@
+body{
+    
+    font-family: 'Raleway', sans-serif !important;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+	position: fixed !important;
+	width: 100%;
+	display: flex;
+	align-items: center;
+  font-family: 'Raleway', sans-serif !important;
+	font-weight: 500;
+  height: 70px;
+
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black !important;
+	font-size: 23px;
+	padding: 0px 12px !important;
+
+}
+
+nav ul li a:hover {
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+
+
+.nn {
+	width: 100%;
+	background: rgba(128, 128, 128, 0.911) !important;
+	position: fixed ;
+	z-index: 999 ;
+	display: flex !important;
+	justify-content: space-between !important;
+	align-items: center;
+}
+
+.back{
+
+background-color: rgba(0, 0, 0, 0.445);
+height: auto;
+width: 100%;
+height: 100%;
+
+}
+
+.contac{
+padding-bottom: 50px;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.logo {
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+	
+	margin-bottom: 0;
+}
+
+.logo {
+	font-size: 35px;
+	font-weight: 1000;
+	display: flex;
+	align-items: center;
+}
+
+.logo .i {
+	color: #2ea5dd;
+}
+
+@media screen and (max-width: 991.5px) {
+	nav {
+		display: flex;
+		align-items: center !important;
+	}
+	nav ul {
+		text-align: center !important;
+	}
+
+  nav .ymeen{
+    background-color: rgba(163, 163, 163, 0.918);
+    color: black;
+  }
+
+	.logo {
+		margin-top: 0;
+	}
+
+	nav .ymeen {
+		
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	nav ul li a {
+		color: black !important;
+	}
+
+	nav button {
+       
+		color: rgba(0, 0, 0, 0) !important;
+		border: 2px solid black !important;
+	}
+}
+
+
+.to2a {
+    height: 70px;
+    width: 200px;
+    margin: 0px 5px;
+}
+.to2a:hover{
+cursor: pointer;
+
+
+}
+
+.lloll {
+    
+    background-image: url(caimd-twin-guestroom-7615-hor-clsc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%
+    
+    
+}
+
+
+.slogan{
+    font-size: 100px;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Playball', cursive;
+    font-weight: 1000;
+}
+
+.tet{
+  font-size: 50px;
+
+}
+.pppp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+
+.site-footer
+{
+  background-color: rgba(128, 128, 128, 0.945);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:black;
+  text-align: center;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:black;
+  font-size:30px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  
+  font-family: 'Raleway', sans-serif !important;
+      
+}
+
+
+.heh{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.site-footer a
+{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  font-size: 20px;
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block;
+  font-size: 20px;
+}
+
+
+.footer-links a
+{
+  color:black
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#737373;
+  text-decoration:none;
+    font-size: 21px
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:25px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.fab{
+    
+    margin-top: 6px;
+    margin-left: 1px
+    
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+   
+}
+
+.map:hover{
+    
+    color: darkred!important;
+    
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.social-icons a.dribbble:hover
+{
+  background-color:red
+}
+.social-icons a.map:hover
+{
+  background-color: grey
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+.miete{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    
+   
+    
+}
+.bott{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 10%;
+ 
+    font-style: bold
+}
+
+
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: #e9e1b6;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #e9e1b6;
+    color: black
+}
+
+/* Add a background color and some padding around the form */
+.conttt {
+  border-radius: 5px;
+    width: 80%;
+    margin-top: 5%
+} 
+
+.yala{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.btn1{
+    padding: 10px 50px;
+
+     background: #d0aa38 !important;
+     border: none;
+    color: black;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 30px;
+    border-radius: 20px;
+ 
+   
+}
+.btn1:hover{
+    
+   background:  #d0aa384f  !important;
+ border: 2px solid #d0aa38;
+ transition: 0.5s;
+    
+}
+
+.n5ls{
+    background-image: url(ismail-nabil-XCRqyufv2yg-unsplash.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.houses{
+  color: floralwhite;
+  background-color: rgba(0, 0, 0, 0.247);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+
+.exp{
+    color: #e9e1b6;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555 ; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgba(167, 178, 180, 0.473); /* Add a dark-grey background on hover */
+    color: black;
+}
+
+
+
+/* follow section*/
+
+.follow{
+  height: auto;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sora {
+	width: 300px;
+	height: 450px;
+	text-align: center;
+	border: 1px;
+	border-radius: 6px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.ssr{
+  width: 300px;
+	height: 450px;
+  overflow: hidden;
+}
+
+.sora:hover{
+  width: 370px;
+  height: 470px;
+  transition: 1s;
+}
+
+.kmm{
+  padding: 10px 0 40px 0;
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.kmm i{
+  align-self: center;
+  color: deeppink;
+  font-size: 70px;
+  margin-right: 20px;
+  text-align: center;
+
+}
+
+.textt{
+  align-self: center;
+  font-size: 50px;
+}
+
+.non{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.non img{
+  margin: 5px;
+}
+
+
+/******************/
+
+/*how it work */
+.iconss {
+	height: auto;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	background-color: white;
+}
+
+.first,
+.secon,
+.third {
+	padding: 10px 0;
+	width:250px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: flex-start;
+	margin-bottom: 7px;
+}
+
+
+
+.toppp {
+	
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.all {
+	width: 100%;
+  height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.howit i{font-size: 50px;
+color: black
+}
+
+.howit{
+  height: auto;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.nam{color: black;
+margin-top: 10px;}
+
+
+/********esraa*******/
+
+.exp{
+  height: auto;
+  width: 100%;
+  padding: 0 0 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.ses, .fd{
+  width: 90%;
+  height: auto;
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.fdd{
+  padding: 50px 0 80px 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.trii{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card-group, .card-group2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+
+}
+
+.cardd{
+  width: 350px !important;
+  height: auto;
+  box-shadow: 5px 5px 10px gray;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.cardd img{
+  width: 350px;
+  height:300px;
+  border-radius: 20px;
+}
+
+.card-body{
+  color: black;
+  font-family: 'Raleway', sans-serif !important;
+  text-align: center;
+}
+
+.card-body h5{
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.card-body p{
+  font-size: 18px;
+}
+
+
+
+
+/*-----------------------*/
+
+.card1{
+  width: 380px;
+  height: auto;
+  text-align: center;
+  box-shadow: 5px 5px 10px gray;
+  padding: 30px 10px;
+  margin-top: 20px;
+
+}
+
+.card1 img{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+}
